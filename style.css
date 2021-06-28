@@ -1,0 +1,285 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+}
+.header{
+    background-image: url(https://pdp.edu.vn/wp-content/uploads/2021/05/hinh-nen-mau-xam.jpg);
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 150px;
+    color: white;
+    
+}
+.header-content-h1{
+    font-size: 60px;
+    font-weight: 700;
+}
+.header-img{
+  margin-right: 50px;
+}
+
+      .button:hover{
+        cursor: pointer
+    }
+      .button {
+        background: transparent;
+        outline: none;
+        position: relative;
+        border: 2px solid #db6d5b;
+        padding: 15px 50px;
+        overflow: hidden;
+        color: #db6d5b;
+        box-shadow:
+       -7px -7px 20px 0px rgba(255,255,255,.9),
+       -4px -4px 5px 0px rgba(255,255,255,.9),
+       7px 7px 20px 0px rgba(0,0,0,.2),
+       4px 4px 5px 0px rgba(0,0,0,.3);
+      }
+  
+      .button:hover:before{opacity: 1; transform: translate(0,0);}
+      .button:before{
+        content: attr(data-hover);
+        position: absolute;
+        top: 1.1em; left: 0;
+        width: 100%;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        font-weight: 800;
+        font-size: .8em;
+        opacity: 0;
+        transform: translate(-100%,0);
+        transition: all .3s ease-in-out;
+      }
+
+        .button:hover div{opacity: 0; transform: translate(100%,0)}
+        .button div{
+          text-transform: uppercase;
+          letter-spacing: 3px;
+          font-weight: 800;
+          font-size: .8em;
+          transition: all .3s ease-in-out;
+        }
+.main-about-h2{
+    color: white;
+    text-align: center;
+
+}
+.main-about{
+    color: white;
+    background-image: linear-gradient(135deg,#b83b5e,#f08a5d);
+    position: relative;
+    overflow: hidden;
+    height: 500px;
+    
+}
+.main-about::after{
+  position: absolute;
+  content: "";
+  bottom: -100px;
+  left: 0;
+  width: 105%;
+  height: 100px;
+  background-color: #ffffff;
+  transform: rotate(-3deg);
+  transform-origin: left;
+}
+.main-about-content{
+    text-align: center;
+    font-size: 20px;
+}
+
+  .frame {
+    width: 90%;
+    margin: 40px auto;
+    text-align: center;
+  }
+  .button {
+    margin: 20px;
+  }
+  .a{
+    color: #fff;
+    text-decoration: none;
+  }
+  .custom-btn {
+    width: 200px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+    
+  }
+  .btn-7 {
+    background: linear-gradient(0deg, rgba(255,151,0,1) 0%, rgba(251,75,2,1) 100%);
+      line-height: 42px;
+      padding: 0;
+      border: none;
+    }
+    .btn-7 span {
+      position: relative;
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+    .btn-7:before,
+    .btn-7:after {
+      position: absolute;
+      content: "";
+      right: 0;
+      bottom: 0;
+      background: rgba(251,75,2,1);
+      box-shadow:
+       -7px -7px 20px 0px rgba(255,255,255,.9),
+       -4px -4px 5px 0px rgba(255,255,255,.9),
+       7px 7px 20px 0px rgba(0,0,0,.2),
+       4px 4px 5px 0px rgba(0,0,0,.3);
+      transition: all 0.3s ease;
+    }
+    .btn-7:before{
+       height: 0%;
+       width: 2px;
+    }
+    .btn-7:after {
+      width: 0%;
+      height: 2px;
+    }
+    .btn-7:hover{
+      color: rgba(251,75,2,1);
+      background: transparent;
+    }
+    .btn-7:hover:before {
+      height: 100%;
+    }
+    .btn-7:hover:after {
+      width: 100%;
+    }
+    .btn-7 span:before,
+    .btn-7 span:after {
+      position: absolute;
+      content: "";
+      left: 0;
+      top: 0;
+      background: rgba(251,75,2,1);
+      box-shadow:
+       -7px -7px 20px 0px rgba(255,255,255,.9),
+       -4px -4px 5px 0px rgba(255,255,255,.9),
+       7px 7px 20px 0px rgba(0,0,0,.2),
+       4px 4px 5px 0px rgba(0,0,0,.3);
+      transition: all 0.3s ease;
+    }
+    .btn-7 span:before {
+      width: 2px;
+      height: 0%;
+    }
+    .btn-7 span:after {
+      height: 2px;
+      width: 0%;
+    }
+    .btn-7 span:hover:before {
+      height: 100%;
+    }
+    .btn-7 span:hover:after {
+      width: 100%;
+    }
+    .main-about-btn{
+        display: flex;
+        justify-content: center;
+    }
+    .slider-h1{
+      text-align: center;
+    }
+   
+.Black{
+  color: #333;
+}
+
+.main-item{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  
+}
+.main-item-btn{
+  text-decoration: none;
+  border: 2px solid #db6d5b;
+  height: 40px;
+  width: 200px;
+  overflow: hidden;
+  margin-left: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.main-item-a{
+  text-decoration: none;
+  color: #db6d5b;
+}
+.footer{
+  background-image: linear-gradient(135deg,#b83b5e,#f08a5d);
+  height: 400px;
+  color: white;
+  position: relative;
+  overflow: hidden;
+}
+.footer::after{
+  position: absolute;
+  content: "";
+  top: -110px;
+  left: 0;
+  width: 110%;
+  height: 200px;
+  background-color: #ffffff;
+  transform: rotate(-3deg);
+  transform-origin: left;
+}
+.footer-content-h1{
+  margin-top: 100px;
+  text-align: center;
+}
+.footer-content-h3{
+  margin-top: 50px;
+  text-align: center;
+}
+.footer-icon{
+  margin-top: 50px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+.fab{
+  color: white;
+  font-size: 40px;
+  margin-left: 20px;
+}
+.footer-content-h4{
+  text-align: center;
+}
+.fab:hover{
+  transform: scale(1.5);
+}
+.header-img-img{
+  border-radius: 50%;
+}
+@media (max-width: 576px) { 
+  .header-content-h1{
+    font-size: 40px;
+    margin-left: -150px;
+  }
+  .header-img{
+    display: none;
+  }
+}
